@@ -13,12 +13,19 @@ INSERT INTO C_EP
 	'');
 INSERT INTO C_IO
 	VALUES ("f93127c6-c77a-4774-8f24-aa7ca8f137e5",
-	"ba5eda7a-def5-0000-0000-000000000000",
+	"1f38f37f-688e-4149-b6dc-749b90dfad35",
 	'test-operation',
 	'',
 	0,
 	'',
 	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_DT_PROXY
+	VALUES ("1f38f37f-688e-4149-b6dc-749b90dfad35",
+	"00000000-0000-0000-0000-000000000000",
+	'myInt',
+	'',
+	'',
+	'../../../../../DataTypeLibrary/models/DataTypeLibrary/Types/Types.xtuml');
 INSERT INTO C_PP
 	VALUES ("11f25274-df54-4f1e-ba75-62c06094f7b3",
 	"f93127c6-c77a-4774-8f24-aa7ca8f137e5",
@@ -34,7 +41,7 @@ INSERT INTO S_DT_PROXY
 	'myInt',
 	'',
 	'',
-	'../../../../../DataTypeLibrary/models/DataTypeLibrary/Types/Types.xtuml');
+	'/');
 INSERT INTO PE_PE
 	VALUES ("05c0bf20-85cd-4fe3-abb1-0afab91080a6",
 	1,
