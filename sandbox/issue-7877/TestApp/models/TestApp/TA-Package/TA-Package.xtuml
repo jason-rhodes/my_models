@@ -1,0 +1,70 @@
+-- BP 7.1.6 content: Package syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO EP_PKG
+	VALUES ("ec98c80b-5667-4d72-9c89-ec454b8c147f",
+	"dc2219c4-375a-4e8f-a5ed-85b1dba66923",
+	"dc2219c4-375a-4e8f-a5ed-85b1dba66923",
+	'TA-Package',
+	'',
+	0);
+INSERT INTO GD_MD
+	VALUES ("9d84e04f-2bbf-4a4a-a7a6-ae41f81dbea0",
+	112,
+	"ec98c80b-5667-4d72-9c89-ec454b8c147f",
+	108,
+	0,
+	0,
+	1,
+	1,
+	1,
+	12,
+	1,
+	0,
+	0,
+	200,
+	150,
+	0,
+	'',
+	'TestApp::TA-Package');
+INSERT INTO GD_GE
+	VALUES ("5da53c83-a5cd-4755-8ff8-ad83ef21586f",
+	"9d84e04f-2bbf-4a4a-a7a6-ae41f81dbea0",
+	"040c5d82-f20b-4ceb-8387-321c0103ceab",
+	96,
+	0,
+	'TestApp::TA-Package::TA-Interface');
+INSERT INTO GD_SHP
+	VALUES ("5da53c83-a5cd-4755-8ff8-ad83ef21586f");
+INSERT INTO GD_NCS
+	VALUES ("5da53c83-a5cd-4755-8ff8-ad83ef21586f");
+INSERT INTO DIM_ND
+	VALUES (200.000000,
+	150.000000,
+	"5da53c83-a5cd-4755-8ff8-ad83ef21586f");
+INSERT INTO DIM_GE
+	VALUES (0.000000,
+	0.000000,
+	"5da53c83-a5cd-4755-8ff8-ad83ef21586f",
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_ELE
+	VALUES ("5da53c83-a5cd-4755-8ff8-ad83ef21586f",
+	0,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO DIM_DIA
+	VALUES ("9d84e04f-2bbf-4a4a-a7a6-ae41f81dbea0",
+	'',
+	1.000000,
+	0.000000,
+	0.000000,
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO PE_PE
+	VALUES ("ec98c80b-5667-4d72-9c89-ec454b8c147f",
+	1,
+	"00000000-0000-0000-0000-000000000000",
+	"00000000-0000-0000-0000-000000000000",
+	7);
+INSERT INTO S_SYS_PROXY
+	VALUES ("dc2219c4-375a-4e8f-a5ed-85b1dba66923",
+	'TestApp',
+	1,
+	'../TestApp.xtuml');
