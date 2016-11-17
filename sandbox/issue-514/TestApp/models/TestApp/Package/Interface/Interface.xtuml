@@ -1,0 +1,51 @@
+-- BP 7.1.6 content: Interface syschar: 3 persistence-version: 7.1.6
+
+INSERT INTO C_I
+	VALUES ("84e8366d-6b29-422f-be29-6f3384f857c0",
+	"00000000-0000-0000-0000-000000000000",
+	'Interface',
+	'');
+INSERT INTO C_EP
+	VALUES ("95b0dc75-9abd-41e0-8145-1052385412e2",
+	"84e8366d-6b29-422f-be29-6f3384f857c0",
+	-1,
+	'Operation',
+	'');
+INSERT INTO C_IO
+	VALUES ("95b0dc75-9abd-41e0-8145-1052385412e2",
+	"ba5eda7a-def5-0000-0000-000000000000",
+	'Operation',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO C_PP
+	VALUES ("0f7fb372-3045-4b3d-9ed8-2b9c19d42755",
+	"95b0dc75-9abd-41e0-8145-1052385412e2",
+	"b6fd69bd-da8e-4555-87c9-8dc15304d92d",
+	'param1',
+	'',
+	0,
+	'',
+	"00000000-0000-0000-0000-000000000000");
+INSERT INTO S_DT_PROXY
+	VALUES ("b6fd69bd-da8e-4555-87c9-8dc15304d92d",
+	"00000000-0000-0000-0000-000000000000",
+	'myInt',
+	'',
+	'',
+	'../../../../../DataTypeLibrary/models/DataTypeLibrary/Types/Types.xtuml');
+INSERT INTO PE_PE
+	VALUES ("84e8366d-6b29-422f-be29-6f3384f857c0",
+	1,
+	"9d252863-b8ee-4638-b5e8-a1044c93e0da",
+	"00000000-0000-0000-0000-000000000000",
+	6);
+INSERT INTO EP_PKG_PROXY
+	VALUES ("9d252863-b8ee-4638-b5e8-a1044c93e0da",
+	"744faeee-9986-4985-9ea0-d35436dc6cb5",
+	"744faeee-9986-4985-9ea0-d35436dc6cb5",
+	'Package',
+	'',
+	0,
+	'../Package.xtuml');
